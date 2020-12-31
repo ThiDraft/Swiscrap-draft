@@ -2,6 +2,13 @@
 <h1 align="center">Swiscrap - Software ICD Scraping</h1>
 
 ***
+<!-- [![DeepSource](https://deepsource.io/gh/ThiDraft/Swiscrap-draft.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/ThiDraft/Swiscrap-draft/?ref=repository-badge) -->
+
+<p align="center">
+  <a href="https://deepsource.io/gh/ThiDraft/Swiscrap-draft/?ref=repository-badge" target="_blank"><img alt="DeepSource" title="DeepSource" src="https://deepsource.io/gh/ThiDraft/Swiscrap-draft.svg/?label=active+issues&show_trend=true"/></a>
+  <a href="https://deepsource.io/gh/ThiDraft/Swiscrap-draft/?ref=repository-badge" target="_blank"><img alt="DeepSource" title="DeepSource" src="https://deepsource.io/gh/ThiDraft/Swiscrap-draft.svg/?label=resolved+issues&show_trend=true"/></a>
+</p>
+
 <p align="center">
   <a href="https://www.python.org/downloads/release/python-386/">
     <img src=
@@ -15,6 +22,8 @@
     alt="Python" />
   </a>
 </p>
+
+
 
 <p align="center">
   <a href=
