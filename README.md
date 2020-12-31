@@ -12,6 +12,11 @@
 <p align="center">
   <a href="https://www.codefactor.io/repository/github/thidraft/swiscrap-draft"><img src="https://www.codefactor.io/repository/github/thidraft/swiscrap-draft/badge" alt="CodeFactor" /></a>
 </p>
+<p align="center">
+  <a href="https://www.code-inspector.com/project/17418/score/svg"><img src="https://www.code-inspector.com/project/17418/score/svg" alt="CodeInspector Quality" /></a>  
+  <a href="https://www.code-inspector.com/project/17418/status/svg"><img src="https://www.code-inspector.com/project/17418/status/svg" alt="CodeInspector Grade" /></a>
+</p>
+
 
 <p align="center">
   <a href="https://www.python.org/downloads/release/python-386/">
