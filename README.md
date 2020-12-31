@@ -2,6 +2,7 @@
 <h1 align="center">Swiscrap - Software ICD Scraping</h1>
 
 ***
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a360d24619164e9884c803284890d532)](https://app.codacy.com/gh/ThiDraft/Swiscrap-draft?utm_source=github.com&utm_medium=referral&utm_content=ThiDraft/Swiscrap-draft&utm_campaign=Badge_Grade)
 <!-- [![DeepSource](https://deepsource.io/gh/ThiDraft/Swiscrap-draft.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/ThiDraft/Swiscrap-draft/?ref=repository-badge) -->
 
 <p align="center">
