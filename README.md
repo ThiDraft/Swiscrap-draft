@@ -2,22 +2,17 @@
 <h1 align="center">Swiscrap - Software ICD Scraping</h1>
 
 ***
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a360d24619164e9884c803284890d532)](https://app.codacy.com/gh/ThiDraft/Swiscrap-draft?utm_source=github.com&utm_medium=referral&utm_content=ThiDraft/Swiscrap-draft&utm_campaign=Badge_Grade)
-<!-- [![DeepSource](https://deepsource.io/gh/ThiDraft/Swiscrap-draft.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/ThiDraft/Swiscrap-draft/?ref=repository-badge) -->
+<p align="center">
+  <a href="https://www.code-inspector.com/project/17418/score/svg"><img src="https://www.code-inspector.com/project/17418/score/svg" alt="CodeInspector Quality" /></a>  
+  <a href="https://www.code-inspector.com/project/17418/status/svg"><img src="https://www.code-inspector.com/project/17418/status/svg" alt="CodeInspector Grade" /></a>
+    <a href="https://www.codefactor.io/repository/github/thidraft/swiscrap-draft"><img src="https://www.codefactor.io/repository/github/thidraft/swiscrap-draft/badge" alt="CodeFactor" /></a>
+  <a href="https://www.codacy.com/gh/ThiDraft/Swiscrap-draft/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ThiDraft/Swiscrap-draft&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/9f15e8954d9a4ebf9db1d97a06602ece"/></a>
+</p>
 
 <p align="center">
   <a href="https://deepsource.io/gh/ThiDraft/Swiscrap-draft/?ref=repository-badge" target="_blank"><img alt="DeepSource" title="DeepSource" src="https://deepsource.io/gh/ThiDraft/Swiscrap-draft.svg/?label=active+issues&show_trend=true"/></a>
   <a href="https://deepsource.io/gh/ThiDraft/Swiscrap-draft/?ref=repository-badge" target="_blank"><img alt="DeepSource" title="DeepSource" src="https://deepsource.io/gh/ThiDraft/Swiscrap-draft.svg/?label=resolved+issues&show_trend=true"/></a>
 </p>
-
-<p align="center">
-  <a href="https://www.codefactor.io/repository/github/thidraft/swiscrap-draft"><img src="https://www.codefactor.io/repository/github/thidraft/swiscrap-draft/badge" alt="CodeFactor" /></a>
-</p>
-<p align="center">
-  <a href="https://www.code-inspector.com/project/17418/score/svg"><img src="https://www.code-inspector.com/project/17418/score/svg" alt="CodeInspector Quality" /></a>  
-  <a href="https://www.code-inspector.com/project/17418/status/svg"><img src="https://www.code-inspector.com/project/17418/status/svg" alt="CodeInspector Grade" /></a>
-</p>
-
 
 <p align="center">
   <a href="https://www.python.org/downloads/release/python-386/">
@@ -233,33 +228,3 @@ Links :
 1- https://stackoverflow.com/questions/63404192/pip-install-tensorflow-cannot-find-file-called-client-load-reporting-filter-h
 
 2- https://www.howtogeek.com/266621/how-to-make-windows-10-accept-file-paths-over-260-characters/
-
-
-
-
-
-<a id="beginner-level"></a>
-<details>
-  <summary>Beginner Level</summary>
-
-  ##### <a href="#-">`^`</a> Beginner Level #####
-  * [A tutorial on pointers][16-1]
-  * [A tutorial on portable Makefiles][16-2]
-  * [Building C Projects][16-3]
-  * [Introduction to \`fun' C][16-4]
-  * [Learning C with GDB][16-5]
-  * [Tutorial on pointers][16-6]
-  * [C Programming Wikibook][16-7]
-  * [POSIX Threads Programming tutorial][16-8]
-  * [Templating in C][16-9]
-
-  [16-9]: http://blog.pkh.me/p/20-templating-in-c.html
-  [16-8]: https://computing.llnl.gov/tutorials/pthreads/
-  [16-7]: https://en.wikibooks.org/wiki/C_Programming
-  [16-6]: http://home.netcom.com/~tjensen/ptr/pointers.htm
-  [16-5]: https://www.recurse.com/blog/5-learning-c-with-gdb
-  [16-4]: https://gist.github.com/eatonphil/21b3d6569f24ad164365
-  [16-3]: http://nethack4.org/blog/building-c.html
-  [16-2]: http://nullprogram.com/blog/2017/08/20/
-  [16-1]: https://pdos.csail.mit.edu/6.828/2017/readings/pointers.pdf
-</details>
