@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <a href="https://www.codefactor.io/repository/github/thidraft/swiscrap-draft"><img src="https://www.codefactor.io/repository/github/thidraft/swiscrap-draft/badge" alt="CodeFactor" /></a>
+</p>
+
+<p align="center">
   <a href="https://www.python.org/downloads/release/python-386/">
     <img src=
     "https://img.shields.io/badge/CODED%20IN-python%203-8.svg?&logo=python&style=for-the-badge&colorA=EAE8E8&colorB=3C25D6" 
