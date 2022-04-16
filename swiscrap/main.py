@@ -11,6 +11,7 @@ To run service, set CONFIG_LOCATION environmental variable and run
 python -m swiscrap+.__main__
 =========================================================
 """
+
 #    _____   __  __   _____     ____    _____    _______ 
 #   |_   _| |  \/  | |  __ \   / __ \  |  __ \  |__   __|
 #     | |   | \  / | | |__) | | |  | | | |__) |    | |   
@@ -25,7 +26,6 @@ try:
     from deliverable import DeliverableGenerator
 except ImportError as err:
     print('ImportError :', err)
-    pass
 # Import the tqdm library for a smart progress meter  for loops
 from tqdm import tqdm
 # Import the time library to add delays
@@ -64,15 +64,11 @@ def run():
         config_info = yaml.safe_load(config)
     if not config_info:
         raise Exception('Invalid configuration file')
-        pass
-    else:
         # print(config_info)
         # for item in config_info.values():
-        for item in tqdm(config_info.values()):
-            # Do something
-            generator = DeliverableGenerator(item)
-            pass
-    pass
+    for item in tqdm(config_info.values()):
+        # Do something
+        generator = DeliverableGenerator(item)
 
 # Encapsulate the main function in a conditional structure
 # This makes it possible to import the file as a module and not to run the main() command.
@@ -82,8 +78,5 @@ if __name__ == "__main__":
 
     # fire.Fire( )
     # fire.Fire(Example)
-
-else:
-    pass
 
 

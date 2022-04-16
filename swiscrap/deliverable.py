@@ -37,12 +37,12 @@ class DeliverableGenerator():
         # Make output directory
         self._make_output_dir()
 
-        try :
+        try:
             input_file = self._config['INPUT_DIR'] + "\\" + self._config['INPUT_XML_ICD_FILE']
             output_md_file = self.folder + "\\" + self._config['NAME_OUTPUT_FILE'] + ".MD"
             output_h_file = self.folder + "\\" + self._config['NAME_OUTPUT_FILE'] + ".h"
         except TypeError as err:
-            print("TypeError in {}: {}".format(__name__, err))
+            print(f"TypeError in {__name__}: {err}")
             input_file = self._default_config['INPUT_DIR'] + "\\" + self._default_config['INPUT_XML_ICD_FILE']
             output_md_file = self.folder + "\\" + self._default_config['NAME_OUTPUT_FILE'] + ".MD"
 
@@ -64,7 +64,7 @@ class DeliverableGenerator():
             output_folder_tree = '\\'.join([self._config['PROJECT_NAME'], self._config['SW_VERSION']])
         except TypeError as err:
             output_folder_tree = _default_deliv_config["OUTPUT_DIR"]
-            print("TypeError in {}: {}".format(__name__, err))
+            print(f"TypeError in {__name__}: {err}")
 
         # Return the output folder
         return output_folder_tree
@@ -76,14 +76,14 @@ class DeliverableGenerator():
         # Log informational to the operator
         logging.info('Creating the output directory...')
         logging.warning('Creating the output directory...')
-        
+
         try:
             # Retrieve the output directory path
             self.folder = self._config['OUTPUT_DIR']
-            
+
             # Add backslash to construct be able to add additional information to the path
             self.folder = self.folder + "\\"
-            
+
             # Add a custom directory depending on the information of the projet
             self.folder = self.folder + self.output_folder_tree
 
@@ -102,14 +102,14 @@ class DeliverableGenerator():
         except TypeError as err:
             # Retrieve the output directory path
             self.folder = self._default_config['OUTPUT_DIR']
-            
+
             # Add backslash to construct be able to add additional information to the path
             self.folder = self.folder + "\\"
-            
+
             # Add a custom directory depending on the information of the projet
             self.folder = self.folder + self.output_folder_tree
-            print("TypeError in {}: {}".format(__name__, err))
-            
+            print(f"TypeError in {__name__}: {err}")
+
         finally:
             # Make the output directory
             os.makedirs(self.folder, exist_ok= True)
