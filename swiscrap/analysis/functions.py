@@ -19,25 +19,21 @@ def save_data(title, data):
 
 def load_data(title, data):
     with open(title, encoding="utf-8") as f:
-        output = json.load(f)
-        return output
+        return json.load(f)
 
 
 COUCOU = "SALUT MON PAQUET"
 
 from string import Template
 
-struct_c = {}
+members = [
+    dict(ctype="TypF32", name="IdTc"),
+    dict(ctype="TypF64", name="quat"),
+    dict(ctype="TypE32", name="los"),
+    dict(ctype="TypE08", name="meas_val"),
+]
 
-members = []
-members.append(dict(ctype="TypF32", name="IdTc"))
-members.append(dict(ctype="TypF64", name="quat"))
-members.append(dict(ctype="TypE32", name="los"))
-members.append(dict(ctype="TypE08", name="meas_val"))
-
-struct_c['structname'] = "Test_Structure"
-struct_c['members'] = members
-
+struct_c = {'structname': "Test_Structure", 'members': members}
 # struct_c.append(dict(structname="Test_Structure", members=members))
 
 # print(struct_c)

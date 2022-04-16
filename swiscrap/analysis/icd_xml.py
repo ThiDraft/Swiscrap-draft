@@ -5,10 +5,10 @@ import bs4 as bs
 from string import Template
 import os
 
-try :
+try:
     from swiscrap.generator.c_struct import CStructureGenerator
 except Exception as err:
-    print("Some module are missing : {}".format(err))
+    print(f"Some module are missing : {err}")
 
 class IcdXmlAnalysis():
     """
@@ -40,8 +40,6 @@ class IcdXmlAnalysis():
             print("Except NameError: ", err)
         except Exception as err:
             print("Except icd_xml : ", err)
-        else:
-            pass
         finally:
             pass
 
@@ -90,27 +88,27 @@ class IcdXmlAnalysis():
     def _parse_tc_field(self, fp_ICD, field, output_struct, members):
         # Find the telecommand name
         field_name = field.find_all('field_name')
-        self._write_line_md(fp_ICD, "{}|".format(field_name[0].text))
-        
+        self._write_line_md(fp_ICD, f"{field_name[0].text}|")
+
         # Find all the descriptions of the telecommand
         field_description = field.find_all('field_description')
         field_description_list = [element.text for element in field_description]
-        
+
         for element_description in field_description_list:
             # Write the description
-            self._write_line_md(fp_ICD, "{}".format(element_description))
-        
+            self._write_line_md(fp_ICD, f"{element_description}")
+
         # Find the telecommand name
         field_value = field.find_all('field_value')
-        self._write_line_md(fp_ICD, "|{}|".format(field_value[0].text))
+        self._write_line_md(fp_ICD, f"|{field_value[0].text}|")
 
         # Find the telecommand name
         field_type = field.find_all('field_type')
-        self._write_line_md(fp_ICD, "{}|".format(field_type[0].text))
+        self._write_line_md(fp_ICD, f"{field_type[0].text}|")
 
         # Find the telecommand name
         field_min = field.find_all('field_min')
-        self._write_line_md(fp_ICD, "{}|".format(field_min[0].text))
+        self._write_line_md(fp_ICD, f"{field_min[0].text}|")
 
         # Find the telecommand name
         field_max = field.find_all('field_max')
@@ -121,7 +119,7 @@ class IcdXmlAnalysis():
         field_type_c = field_name_c[0].text
 
         output_struct.struct_members.append( dict(  ctype= field_type_c  ,
-                                                    name=field_name_c   ))                        
+                                                    name=field_name_c   ))
         members.append(dict(    ctype=field_type_c  , \
                                 name=field_name_c   ))
 
